@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <title>Contact - Youssef Zoubaa</title>
+    <style>
+        /* Mêmes styles que la page d'accueil */
+        form { max-width: 600px; margin: 20px auto; }
+        label { display: block; margin-top: 10px; }
+        input, textarea { width: 100%; padding: 8px; margin-top: 5px; }
+        button { background: #2c3e50; color: white; border: none; padding: 10px 20px; margin-top: 10px; }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Contact</h1>
+    </header>
+    
+    <nav>
+        <a href="index.html">Accueil</a>
+        <a href="professionnel.html">Parcours Professionnel</a>
+        <a href="contact.html">Contact</a>
+    </nav>
+    
+    <section>
+        <h2>Coordonnées</h2>
+        <p><strong>Adresse:</strong> DR EL HARCHA BOUARG, 62000, Nador, Maroc</p>
+        <p><strong>Téléphone:</strong> (+212) 652153727</p>
+        <p><strong>Email:</strong> youssefzoubaa08@gmail.com</p>
+        
+        <h2>Formulaire de Contact</h2>
+        <form action="mailto:youssefzoubaa08@gmail.com" method="post" enctype="text/plain">
+            <label for="nom">Nom:</label>
+            <input type="text" id="nom" name="nom" required>
+            
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+            
+            <label for="sujet">Sujet:</label>
+            <input type="text" id="sujet" name="sujet" required>
+            
+            <label for="message">Message:</label>
+            <textarea id="message" name="message" rows="5" required></textarea>
+            
+            <button type="submit">Envoyer</button>
+        </form>
+    </section>
+    
+    <footer>
+        <p>&copy; 2025 Youssef Zoubaa - Tous droits réservés</p>
+    </footer>
+</body>
+</html>
